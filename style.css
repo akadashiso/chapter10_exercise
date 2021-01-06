@@ -66,3 +66,31 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+@media screen and (max-width: 768px) {
+  .heading {
+    width: 100%;
+  }
+  .service-box {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .service-box:last-child {
+    margin: 0 auto;
+  }
+  .service-img1 {
+    width: 100%;
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .service-box {
+    width: 90%;
+  }
+}
